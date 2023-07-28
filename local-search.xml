@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>xxx</title>
+    <link href="/2023/07/29/xxx/"/>
+    <url>/2023/07/29/xxx/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>test</title>
+    <link href="/2023/07/28/test/"/>
+    <url>/2023/07/28/test/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>iTerm2快捷键</title>
+    <link href="/2023/07/28/iTerm2%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <url>/2023/07/28/iTerm2%E5%BF%AB%E6%8D%B7%E9%94%AE/</url>
+    
+    <content type="html"><![CDATA[<table><thead><tr><th>快捷键</th><th>作用说明</th></tr></thead><tbody><tr><td>command + f</td><td><strong>搜索&amp;查找</strong>，如果输入搜索内容后，按下 tab 键，就会 iTerm 自动帮选中搜索关键词，并且自动的帮我们复制到了剪贴板中。如果输入的是 shift+tab，则自动将查找内容的左边选中并复制。按 esc 退出搜索。</td></tr><tr><td>command + r  或 ctrl + l</td><td>清空屏幕，而且只是换到新一屏，不会像 clear 一样创建一个空屏</td></tr><tr><td>command + k</td><td>clear，清空屏幕</td></tr><tr><td>command + d</td><td>垂直分屏</td></tr><tr><td>command + shift + d</td><td>水平分屏</td></tr><tr><td>command + ;</td><td>查看历史命令</td></tr><tr><td>command + shift + h</td><td>查看剪贴板历史，会自动列出输入过的命令</td></tr><tr><td>command + number</td><td>tab 标签窗口来回切换</td></tr><tr><td>command + option + ←&#x2F;→  或 command + [ &#x2F; ]</td><td>切换屏幕</td></tr><tr><td>ctrl + x</td><td>第一次按时，移动光标至行首；再次按时，回到原有位置</td></tr><tr><td>ctrl + a</td><td>到行首（Ahead of line）</td></tr><tr><td>ctrl + e</td><td>到行尾（End of line）</td></tr><tr><td>ctrl + f&#x2F;b</td><td>前进后退(相当于左右方向键)</td></tr><tr><td>ctrl + u</td><td>清除当前行（无论光标在什么位置）</td></tr><tr><td>ctrl + d</td><td>删除光标当前位置的<strong>字符</strong></td></tr><tr><td>ctrl + h</td><td>删除光标之前的<strong>字符</strong></td></tr><tr><td>ctrl + w</td><td>删除光标之前的<strong>单词</strong></td></tr><tr><td>ctrl + k</td><td>删除光标当前位置到文本末尾的<strong>所有字符</strong></td></tr><tr><td>ctrl + t</td><td>交换光标当前位置的字符与前一个字符的位置</td></tr><tr><td>ctrl + c  或 ctrl + j  或 ctrl + o</td><td>取消当前行输入的命令（中断操作）。重新起一行。</td></tr><tr><td>ctrl + y</td><td>粘贴之前（ctrl +u&#x2F;k&#x2F;w）删除的内容</td></tr><tr><td>ctrl + p  或 !!</td><td>上一条命令。调出命令历史中的前一条（Previous）命令，相当于通常的上箭头</td></tr><tr><td>ctrl + n</td><td>下一条命令。调出命令历史中的下一条（Next）命令，相当于通常的上箭头</td></tr><tr><td>ctrl + s</td><td>冻结终端操作（暂停脚本）</td></tr><tr><td>ctrl + q</td><td>恢复冻结（继续执行脚本）</td></tr><tr><td>ctrl + r</td><td>搜索命令历史。根据用户输入查找相关历史命令（reverse-i-search</td></tr><tr><td>ctrl + l  或 command + r</td><td>换到新一屏，创建一个空屏</td></tr><tr><td>ctrl + i  或 tab</td><td>横行制表符，在命令行中补齐指令</td></tr><tr><td>双击</td><td>选中单词</td></tr><tr><td>三击</td><td>选中整行</td></tr><tr><td>四击</td><td>智能选择</td></tr><tr><td>!word</td><td>重复运行最近一条以“word”开头的指令，如!ls 或 !l</td></tr><tr><td>!$</td><td>调用上一条指令的最后一个参数作为当前指令对象,如，假设上一条指令为： ls abc.txt bbc.txt 那么， vi !$ 相当于： vi bbc.txt</td></tr><tr><td>!number</td><td>调用执行指定编号的历史记录指令,如!2, !11</td></tr></tbody></table>]]></content>
+    
+    
+    <categories>
+      
+      <category>“技巧”</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>“技巧”</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>异步编程</title>
+    <link href="/2023/07/27/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B/"/>
+    <url>/2023/07/27/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h1 id="python-asyncio并发编程"><a href="#python-asyncio并发编程" class="headerlink" title="python asyncio并发编程"></a>python asyncio并发编程</h1><h3 id="asyncio基础"><a href="#asyncio基础" class="headerlink" title="asyncio基础"></a>asyncio基础</h3><h4 id="1-通过任务实现并发"><a href="#1-通过任务实现并发" class="headerlink" title="1.通过任务实现并发"></a>1.通过任务实现并发</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> asyncio<br><br><br><span class="hljs-keyword">async</span> <span class="hljs-keyword">def</span> <span class="hljs-title function_">delay</span>(<span class="hljs-params">delay_seconds: <span class="hljs-built_in">int</span></span>) -&gt; <span class="hljs-built_in">int</span>:<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;等待<span class="hljs-subst">&#123;delay_seconds&#125;</span>秒&quot;</span>)<br>    <span class="hljs-keyword">await</span> asyncio.sleep(delay_seconds)<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;完成等待<span class="hljs-subst">&#123;delay_seconds&#125;</span>秒&quot;</span>)<br>    <span class="hljs-keyword">return</span> delay_seconds<br></code></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> asyncio<br><span class="hljs-keyword">from</span> util <span class="hljs-keyword">import</span> delay<br><br><br><span class="hljs-keyword">async</span> <span class="hljs-keyword">def</span> <span class="hljs-title function_">hello_every_second</span>():<br>    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">2</span>):<br>        <span class="hljs-keyword">await</span> asyncio.sleep(<span class="hljs-number">1</span>)<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&#x27;我在等待时正在运行其他代码&#x27;</span>)<br><br><br><span class="hljs-keyword">async</span> <span class="hljs-keyword">def</span> <span class="hljs-title function_">main</span>():<br>    fist_delay = asyncio.create_task(delay(<span class="hljs-number">3</span>))<br>    second_delay = asyncio.create_task(delay(<span class="hljs-number">3</span>))<br>    <span class="hljs-keyword">await</span> hello_every_second()<br>    <span class="hljs-keyword">await</span> fist_delay<br>    <span class="hljs-keyword">await</span> second_delay<br><br><br><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&#x27;__main__&#x27;</span>:<br>    asyncio.run(main())<br><br></code></pre></td></tr></table></figure><p>代码时间运行过程:</p><p><img src="https://raw.githubusercontent.com/ai-Iverson/images/main/202307271751241.png"></p><h4 id="2-取消任务和设置超时"><a href="#2-取消任务和设置超时" class="headerlink" title="2.取消任务和设置超时"></a>2.取消任务和设置超时</h4><ul><li><p>取消任务</p><p>每个任务对象都有一个名为cancel的方法,可以想要停止任务时调用它,取消一个任务将导致该任务在执行await时引发CancelledErrorr然后可以根据需要处理它</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> asyncio<br><span class="hljs-keyword">from</span> asyncio <span class="hljs-keyword">import</span> CancelledError<br><span class="hljs-keyword">from</span> util <span class="hljs-keyword">import</span> delay<br><br><br><span class="hljs-keyword">async</span> <span class="hljs-keyword">def</span> <span class="hljs-title function_">main</span>():<br>    long_task = asyncio.create_task(delay(<span class="hljs-number">10</span>))<br><br>    second_elapsed = <span class="hljs-number">0</span><br>    <span class="hljs-keyword">while</span> <span class="hljs-keyword">not</span> long_task.done():<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;任务未完成&quot;</span>)<br>        <span class="hljs-comment"># await 会触发其他时间循环中的task执行</span><br>        <span class="hljs-keyword">await</span> asyncio.sleep(<span class="hljs-number">1</span>)<br>        second_elapsed = second_elapsed + <span class="hljs-number">1</span><br>        <span class="hljs-keyword">if</span> second_elapsed == <span class="hljs-number">5</span>:<br>            long_task.cancel()<br><br>    <span class="hljs-keyword">try</span>:<br>        <span class="hljs-keyword">await</span> long_task<br>    <span class="hljs-keyword">except</span> CancelledError:<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;任务取消&quot;</span>)<br><br><br>asyncio.run(main())<br><br></code></pre></td></tr></table></figure><p>我们创建了一个任务，它将花费10 秒的时间来运行。然后 创建 一个while循环来检查该任务是否已完成。任务的done方法在任务完成时返回 True，否则返回False。每 一秒，我们检查任务是否已经完成，并记录到目前为止经历 了多少秒。如果任务已经花费了5秒，就取消这个任务。然后来到await long task，将输出任务取消 ， 这 表 明 捕 获 了一 个 CancelledError</p></li><li><p>使用wait_for设置超时任务取消</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> asyncio<br><span class="hljs-keyword">from</span> util <span class="hljs-keyword">import</span> delay<br><br><br><span class="hljs-keyword">async</span> <span class="hljs-keyword">def</span> <span class="hljs-title function_">main</span>():<br>    delay_task = asyncio.create_task(delay(<span class="hljs-number">2</span>))<br>    <span class="hljs-keyword">try</span>:<br>        result = <span class="hljs-keyword">await</span> asyncio.wait_for(delay_task, timeout=<span class="hljs-number">1</span>)<br>        <span class="hljs-built_in">print</span>(result)<br>    <span class="hljs-keyword">except</span> asyncio.exceptions.TimeoutError:<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;任务超时&quot;</span>)<br><br><br>asyncio.run(main())<br><br></code></pre></td></tr></table></figure></li><li><p>使用asyncio.shield保护任务免于取消</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">async</span> <span class="hljs-keyword">def</span> <span class="hljs-title function_">main</span>():<br>    delay_task = asyncio.create_task(delay(<span class="hljs-number">2</span>))<br>    <span class="hljs-keyword">try</span>:<br>        result = <span class="hljs-keyword">await</span> asyncio.wait_for(asyncio.shield(delay_task), timeout=<span class="hljs-number">1</span>)<br>        <span class="hljs-built_in">print</span>(result)<br>    <span class="hljs-keyword">except</span> asyncio.exceptions.TimeoutError:<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;任务超时&quot;</span>)<br>        result = <span class="hljs-keyword">await</span> delay_task<br>        <span class="hljs-built_in">print</span>(result)<br></code></pre></td></tr></table></figure></li></ul><h4 id="3-任务-协程-future和awaitable"><a href="#3-任务-协程-future和awaitable" class="headerlink" title="3.任务,协程,future和awaitable"></a>3.任务,协程,future和awaitable</h4><ul><li><p>什么是future?</p><ul><li>future 是一个 Python 对象，它包含一个你希望在未来某个时间点获得但目前可能 还不存在的值。通常，当创建future 时，它没有任何值，因为它还不存在。在这种状 态下，它被认为是不完整的、未解决的或根本没有完成的。然后， 一旦你得到 一个结 果，就可以设置future 的值，这将完成future。那时，我们可以认为它已经完成,并可 从 future提取结果</li></ul></li><li><p>等待一个future</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">from</span> asyncio <span class="hljs-keyword">import</span> Future<br><span class="hljs-keyword">import</span> asyncio<br><br><br><span class="hljs-keyword">async</span> <span class="hljs-keyword">def</span> <span class="hljs-title function_">set_future_value</span>(<span class="hljs-params">future</span>) -&gt; <span class="hljs-literal">None</span>:<br>    <span class="hljs-keyword">await</span> asyncio.sleep(<span class="hljs-number">1</span>)<br>    future.set_result(<span class="hljs-number">42</span>)<br><br><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">make_request</span>() -&gt; Future:<br>    future = Future()<br>    asyncio.create_task(set_future_value(future))<br>    <span class="hljs-keyword">return</span> future<br><br><br><span class="hljs-keyword">async</span> <span class="hljs-keyword">def</span> <span class="hljs-title function_">main</span>():<br>    future = make_request()<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;future is done? <span class="hljs-subst">&#123;future.done()&#125;</span>&quot;</span>)<br>    value = <span class="hljs-keyword">await</span> future<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;future is done? <span class="hljs-subst">&#123;future.done()&#125;</span>&quot;</span>)<br>    <span class="hljs-built_in">print</span>(value)<br><br><br>asyncio.run(main())<br></code></pre></td></tr></table></figure></li><li><p>Future ,任务和协程之间的关系</p><p><img src="https://raw.githubusercontent.com/ai-Iverson/images/main/202307271751260.png"></p></li></ul><p>​创建一个任务时,我们正在创建一个空future,并运行协程,当协程以得到结果或异常结束时,我们将设置future的结果或异常</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>python</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>python</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
