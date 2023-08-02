@@ -1,9 +1,9 @@
 ---
 title: iTerm2快捷键
-author: “zhangxin”
+author: zhangxin
 date: 2023-07-28 11:21:04
-tags: 技巧
-categories: 技巧
+tags: iterm
+categories: 奇技淫巧
 ---
 
 | 快捷键                                     | 作用说明                                                     |

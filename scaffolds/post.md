@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-author: “zhangxin”
+author: zhangxin
 categories: 
 tags:
     - private
