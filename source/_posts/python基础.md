@@ -115,22 +115,24 @@ print(abs(v))
 
   - 特殊方法__ repr __供内置方法repr调用,获取对象的字符串形式
 
-    - ```python
-      class StrTest:
-          def __init__(self):
-              self.a = 1
-      
-          def __repr__(self):
-              return "str_test类"
-          
-      class StrTest1:
-          def __init__(self):
-              self.a = 1
-      
-      
-      print(StrTest())  # str_test类
-      print(StrTest1())  # <__main__.StrTest1 object at 0x10464cfd0>
-      ```
+    ```python
+    class StrTest:
+        def __init__(self):
+            self.a = 1
+    
+        def __repr__(self):
+            return "str_test类"
+        
+    class StrTest1:
+        def __init__(self):
+            self.a = 1
+    
+    
+    print(StrTest())  # str_test类
+    print(StrTest1())  # <__main__.StrTest1 object at 0x10464cfd0>
+    ```
+
+    
 
   - __ repr __方法中f字符串使用!r以标准的方式显示属性
     - f"Vector({self.x!r}, {self.y!r})"
@@ -188,15 +190,19 @@ print(abs(v))
 ### 双端队列deque
 - collections.deque 类实现一种线程安全的双端队列,长度固定,从一端添加新项的时候,将从另一端丢弃一项
 
-- ```python
+  ```python
   from collections import deque
   dq = deque(range(10),maxlen=10)
   ```
 
+  
+
   - dq.rotate(3) 从右端取几项放到左端
+
   - dq.rotate(-4) 从左端取几项放到右端
 
   - dp.appendleft(1) 从左端添加项,如果序列是满的,则从右端丢弃一项
+
   - dq.extendleft(iter) 依次把iter中的参数从左边添加到dq中
 
 
