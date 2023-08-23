@@ -170,15 +170,15 @@ print(abs(v))
 
 - 不要在元组中存放可变元素
 
-  - ```python
-    t = (1, 2, [3, 4])
-    t[2] += [5, 6]
-    # 报错'tuple' object does not support item assignment
-    # 但是此时t = (1, 2, [3, 4, 5, 6])
-    # 导致整个问题的原因就是使用了+=
-    ```
+  ```python
+  t = (1, 2, [3, 4])
+  t[2] += [5, 6]
+  # 报错'tuple' object does not support item assignment
+  # 但是此时t = (1, 2, [3, 4, 5, 6])
+  # 导致整个问题的原因就是使用了+=
+  ```
 
-    
+  
 
 ### array
 
@@ -219,12 +219,14 @@ print(abs(v))
 
 - from collections import namedtuple 具名元组
 
-  - ```python
-    coornatide = namedtuple('Coordinate', 'lat lon')
-    issubclass(coornatide, tuple)  # True
-    moscow = coornatide(34.6, 34.6)
-    moscow  # Coordinate(lat=34.6, lon=34,6)
-    ```
+  ```python
+  coornatide = namedtuple('Coordinate', 'lat lon')
+  issubclass(coornatide, tuple)  # True
+  moscow = coornatide(34.6, 34.6)
+  moscow  # Coordinate(lat=34.6, lon=34,6)
+  ```
+
+  
 
 - from typing import NamedTuple
 
