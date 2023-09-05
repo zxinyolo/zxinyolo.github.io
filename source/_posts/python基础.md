@@ -41,16 +41,16 @@ Card = collections.namedtuple('card', ["rank", "suit"])
 class FrenchDeck:
     ranks = [str(n) for n in range(2, 11)] + list("JQKA")
     suits = 'spades diamonds clubs hearts'.split()
-def __init__(self):
-    self._card = [Card(rank, suit)
-                  for rank in self.ranks for suit in self.suits]
+    def __init__(self):
+        self._card = [Card(rank, suit)
+                      for rank in self.ranks for suit in self.suits]
 
-# 使用__len__和__getitem__之后 整个类的行为，就像标准python序列一样
-def __len__(self):
-    return len(self._card)
+    # 使用__len__和__getitem__之后 整个类的行为，就像标准python序列一样
+    def __len__(self):
+        return len(self._card)
 
-def __getitem__(self, item):
-    return self._card[item]
+    def __getitem__(self, item):
+        return self._card[item]
 
 A = FrenchDeck()
 print(len(A))
@@ -141,7 +141,7 @@ print(abs(v))
     - __ repr __用于返回对象的“官方”字符串形式,repr(4)返回“4”,repr("4")返回“ ‘4’ ” 供交互解释器使用
 
   - __ bool __
-    - 如果没有实现__bool__方法,则会调用x.len()方法如果该方法返回零值则bool函数返回False,否则返回True
+    - 如果没有实现__ bool __方法,则会调用x.len()方法如果该方法返回零值则bool函数返回False,否则返回True
 
   - __ len __
     - len之所以不是方法调用就是因为,内置方法 __ len __ 的实现,运行速度更快
