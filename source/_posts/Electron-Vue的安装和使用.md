@@ -90,4 +90,25 @@ yarn run dev # 或者 npm run dev
     })
   ```
 
-  
+
+
+
+
+### Electron-Vue中引入element-ui
+
+- yarn add element-ui
+
+- 在 `/my-project/src/renderer/main.js` 中引入 element ui
+
+  ```js
+  // element-ui
+  import ElementUI from 'element-ui'
+  import 'element-ui/lib/theme-chalk/index.css'
+  Vue.use(ElementUI)
+  ```
+
+- 此时就可以在任意 .vue 文件中添加和使用 element-ui 元素了
+
+  ```js
+  <el-button type="success" icon="el-icon-search" round>默认按钮</el-button>
+  ```
