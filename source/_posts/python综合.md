@@ -585,6 +585,8 @@ Tips: 索引下推的目的是为了减少回表次数,也就是要减少IO操�
 
 https://juejin.cn/post/6844903982066827277
 
+https://xiaolincoding.com/redis/base/redis_interview.html
+
 #### 特点
 
 **Redis中只有网络请求模块和数据操作模块是单线程的。而其他的如持久化存储模块、集群支撑模块等是多线程的。**
